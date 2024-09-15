@@ -1,6 +1,20 @@
 .hero,
 .footer {
     background-color: #1f2937;
+    display: flex;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.left1, .right1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 p {
@@ -9,4 +23,22 @@ p {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.hero {
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%; 
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+}
+
+* {
+    outline: 2px solid red;
 }
