@@ -28,7 +28,21 @@ p {
 .hero {
     flex-direction: column;
     padding-left: 20%;
-    padding-right: 20%; 
+    padding-right: 20%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.left2, .right2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 li {
