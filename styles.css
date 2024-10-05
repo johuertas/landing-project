@@ -85,12 +85,12 @@
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 4px;
+    gap: 5%;
     margin-bottom: 10%; 
 }
 
 .subinfo {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .quote {
@@ -140,6 +140,7 @@
 #main-image {
     width: 50%;
     height: 200px;
+    border: 0px
 }
 
 .texts {
